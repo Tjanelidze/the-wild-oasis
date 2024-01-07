@@ -19,7 +19,7 @@ function Cabins() {
         <CabinTable />
 
         <Button
-          variation="primary"
+          $variation="primary"
           onClick={() => setShowForm((show) => !show)}
         >
           Add new cabin
